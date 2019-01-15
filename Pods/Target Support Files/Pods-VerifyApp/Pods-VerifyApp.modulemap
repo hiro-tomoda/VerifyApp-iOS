@@ -1,0 +1,6 @@
+framework module Pods_VerifyApp {
+  umbrella header "Pods-VerifyApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
