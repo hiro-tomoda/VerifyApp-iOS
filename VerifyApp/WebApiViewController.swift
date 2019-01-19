@@ -8,6 +8,9 @@
 
 import UIKit
 
+/**
+ * WebAPI検証画面
+ */
 class WebApiViewController: UIViewController {
     
     // WebAPIのURL 張子なしにしようとしたらapacheのhtaccessの設定が必要と思われる

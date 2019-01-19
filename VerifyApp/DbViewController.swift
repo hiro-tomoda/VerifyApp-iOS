@@ -7,8 +7,11 @@
 //
 
 import UIKit
-import RealmSwift
+import RealmSwift // podでインストールが必要
 
+/**
+ *  DB検証画面
+ */
 class DbViewController: UIViewController {
     
     var realm: Realm!

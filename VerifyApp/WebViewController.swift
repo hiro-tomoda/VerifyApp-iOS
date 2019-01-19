@@ -9,6 +9,9 @@
 import UIKit
 import WebKit // Webkit.frameworkをライブラリに追加していないとエラーになる
 
+/**
+ * WebView検証画面
+ */
 class WebViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, WKScriptMessageHandler {
     
     var webView: WKWebView!

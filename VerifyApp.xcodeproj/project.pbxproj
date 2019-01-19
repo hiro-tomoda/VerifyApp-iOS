@@ -17,6 +17,7 @@
 		C26C615621E88B120097670F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26C615521E88B120097670F /* Assets.xcassets */; };
 		C26C615921E88B120097670F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26C615721E88B120097670F /* LaunchScreen.storyboard */; };
 		C26C616121E88E8C0097670F /* WebApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C616021E88E8C0097670F /* WebApiViewController.swift */; };
+		C2888EE921F2C46B001321FC /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2888EE821F2C46B001321FC /* CalendarViewController.swift */; };
 		C2E187E421EC543A00527495 /* VerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E187E321EC543A00527495 /* VerifyModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		C26C615821E88B120097670F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C26C615A21E88B120097670F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C26C616021E88E8C0097670F /* WebApiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebApiViewController.swift; sourceTree = "<group>"; };
+		C2888EE821F2C46B001321FC /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		C2E187E321EC543A00527495 /* VerifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyModel.swift; sourceTree = "<group>"; };
 		DBB1A15315F8700E44B68FEE /* Pods-VerifyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerifyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-VerifyApp/Pods-VerifyApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +97,7 @@
 				C26C616021E88E8C0097670F /* WebApiViewController.swift */,
 				C26BEB2121EC52B400CAEE53 /* DbViewController.swift */,
 				C2283B0421F161BA007F4CA3 /* WebViewController.swift */,
+				C2888EE821F2C46B001321FC /* CalendarViewController.swift */,
 				C2E187E321EC543A00527495 /* VerifyModel.swift */,
 				C26C615221E88B100097670F /* Main.storyboard */,
 				C26C615721E88B120097670F /* LaunchScreen.storyboard */,
@@ -198,11 +201,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-VerifyApp/Pods-VerifyApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CalculateCalendarLogic/CalculateCalendarLogic.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalculateCalendarLogic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
@@ -223,6 +230,7 @@
 				C26C616121E88E8C0097670F /* WebApiViewController.swift in Sources */,
 				C26BEB2221EC52B400CAEE53 /* DbViewController.swift in Sources */,
 				C26C614F21E88B100097670F /* AppDelegate.swift in Sources */,
+				C2888EE921F2C46B001321FC /* CalendarViewController.swift in Sources */,
 				C2E187E421EC543A00527495 /* VerifyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,12 @@ target 'VerifyApp' do
 
   # Pods for VerifyApp
 
-  # ここに使用するライブラリを追加する
+  # ここから使用するライブラリを追加する
+  # Realmライブラリ
   pod "RealmSwift"
+
+  # カレンダーライブラリ
+  pod "FSCalendar"
+  pod "CalculateCalendarLogic"
 
 end
