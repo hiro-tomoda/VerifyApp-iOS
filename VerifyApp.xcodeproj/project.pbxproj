@@ -10,6 +10,7 @@
 		12C3D313E519FB78E0C91F11 /* Pods_VerifyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F36751814B055A83B6A3DB7 /* Pods_VerifyApp.framework */; };
 		C2283B0521F161BA007F4CA3 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2283B0421F161BA007F4CA3 /* WebViewController.swift */; };
 		C2283B0721F16515007F4CA3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2283B0621F16515007F4CA3 /* WebKit.framework */; };
+		C264B52A21F58F1600A0BFB4 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C264B52921F58F1600A0BFB4 /* TabViewController.swift */; };
 		C26BEB2221EC52B400CAEE53 /* DbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26BEB2121EC52B400CAEE53 /* DbViewController.swift */; };
 		C26C614F21E88B100097670F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C614E21E88B100097670F /* AppDelegate.swift */; };
 		C26C615121E88B100097670F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C615021E88B100097670F /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		8ECC5589EE6C9A4EBF82E7CC /* Pods-VerifyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerifyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VerifyApp/Pods-VerifyApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C2283B0421F161BA007F4CA3 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		C2283B0621F16515007F4CA3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C264B52921F58F1600A0BFB4 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		C26BEB2121EC52B400CAEE53 /* DbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DbViewController.swift; sourceTree = "<group>"; };
 		C26C614B21E88B100097670F /* VerifyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerifyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26C614E21E88B100097670F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				C26BEB2121EC52B400CAEE53 /* DbViewController.swift */,
 				C2283B0421F161BA007F4CA3 /* WebViewController.swift */,
 				C2888EE821F2C46B001321FC /* CalendarViewController.swift */,
+				C264B52921F58F1600A0BFB4 /* TabViewController.swift */,
 				C2E187E321EC543A00527495 /* VerifyModel.swift */,
 				C26C615221E88B100097670F /* Main.storyboard */,
 				C26C615721E88B120097670F /* LaunchScreen.storyboard */,
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C264B52A21F58F1600A0BFB4 /* TabViewController.swift in Sources */,
 				C26C615121E88B100097670F /* ViewController.swift in Sources */,
 				C2283B0521F161BA007F4CA3 /* WebViewController.swift in Sources */,
 				C26C616121E88E8C0097670F /* WebApiViewController.swift in Sources */,
