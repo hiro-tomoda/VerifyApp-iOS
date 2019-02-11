@@ -279,6 +279,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NtY-1q-Ghe" customClass="CustomView" customModule="VerifyApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="198" width="343" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="5td-Ul-yXm"/>
@@ -401,9 +406,18 @@
                     </view>
                     <connections>
                         <outlet property="resultLabel" destination="fDA-gL-on3" id="bX4-Tn-Cgn"/>
+                        <outlet property="searchDisplayController" destination="kHE-xr-uJB" id="6aF-gy-xMM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OfG-fW-84z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="kHE-xr-uJB">
+                    <connections>
+                        <outlet property="delegate" destination="JQY-JP-hxA" id="1Eo-PD-ari"/>
+                        <outlet property="searchContentsController" destination="JQY-JP-hxA" id="JQL-6B-TNQ"/>
+                        <outlet property="searchResultsDataSource" destination="JQY-JP-hxA" id="75L-Px-KZ9"/>
+                        <outlet property="searchResultsDelegate" destination="JQY-JP-hxA" id="bXq-ai-Yd9"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="1864.8" y="854.1229385307347"/>
         </scene>

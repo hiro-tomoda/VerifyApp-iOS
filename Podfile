@@ -15,4 +15,7 @@ target 'VerifyApp' do
   pod "FSCalendar"
   pod "CalculateCalendarLogic"
 
+  # FirebaseSDK
+  pod 'Firebase/Core'
+
 end
