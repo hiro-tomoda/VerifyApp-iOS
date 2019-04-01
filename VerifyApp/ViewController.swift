@@ -18,6 +18,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func noStoryboardButton(_ sender: Any) {
+        let vc = NoStoryBoardViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 

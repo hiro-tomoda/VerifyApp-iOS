@@ -11,6 +11,8 @@
 		C20CC55E21FAF42500D6004B /* UserDefaultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20CC55D21FAF42500D6004B /* UserDefaultsViewController.swift */; };
 		C2283B0521F161BA007F4CA3 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2283B0421F161BA007F4CA3 /* WebViewController.swift */; };
 		C2283B0721F16515007F4CA3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2283B0621F16515007F4CA3 /* WebKit.framework */; };
+		C2371B8422213DDC00E222D6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2371B8322213DDC00E222D6 /* QuartzCore.framework */; };
+		C2371B8622213DFB00E222D6 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2371B8522213DFB00E222D6 /* AnimationViewController.swift */; };
 		C254FB6B220E56E20084E11A /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C254FB6A220E56E20084E11A /* CustomView.swift */; };
 		C254FB6E220E587F0084E11A /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C254FB6D220E587F0084E11A /* CustomView.xib */; };
 		C264B52A21F58F1600A0BFB4 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C264B52921F58F1600A0BFB4 /* TabViewController.swift */; };
@@ -23,6 +25,7 @@
 		C26C615921E88B120097670F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26C615721E88B120097670F /* LaunchScreen.storyboard */; };
 		C26C616121E88E8C0097670F /* WebApiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C616021E88E8C0097670F /* WebApiViewController.swift */; };
 		C2888EE921F2C46B001321FC /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2888EE821F2C46B001321FC /* CalendarViewController.swift */; };
+		C2BC316B2217C4A2006F38A4 /* NoStoryBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BC316A2217C4A2006F38A4 /* NoStoryBoardViewController.swift */; };
 		C2BF776A22013C07003292E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2BF776922013C07003292E6 /* GoogleService-Info.plist */; };
 		C2E187E421EC543A00527495 /* VerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E187E321EC543A00527495 /* VerifyModel.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +36,8 @@
 		C20CC55D21FAF42500D6004B /* UserDefaultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsViewController.swift; sourceTree = "<group>"; };
 		C2283B0421F161BA007F4CA3 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		C2283B0621F16515007F4CA3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C2371B8322213DDC00E222D6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C2371B8522213DFB00E222D6 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		C254FB6A220E56E20084E11A /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		C254FB6D220E587F0084E11A /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 		C264B52921F58F1600A0BFB4 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		C26C615A21E88B120097670F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C26C616021E88E8C0097670F /* WebApiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebApiViewController.swift; sourceTree = "<group>"; };
 		C2888EE821F2C46B001321FC /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		C2BC316A2217C4A2006F38A4 /* NoStoryBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoStoryBoardViewController.swift; sourceTree = "<group>"; };
 		C2BF776922013C07003292E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C2E187E321EC543A00527495 /* VerifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyModel.swift; sourceTree = "<group>"; };
 		DBB1A15315F8700E44B68FEE /* Pods-VerifyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VerifyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-VerifyApp/Pods-VerifyApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2371B8422213DDC00E222D6 /* QuartzCore.framework in Frameworks */,
 				C2283B0721F16515007F4CA3 /* WebKit.framework in Frameworks */,
 				12C3D313E519FB78E0C91F11 /* Pods_VerifyApp.framework in Frameworks */,
 			);
@@ -77,6 +84,7 @@
 		3FA602B92ACF13A2D60F03FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2371B8322213DDC00E222D6 /* QuartzCore.framework */,
 				C2283B0621F16515007F4CA3 /* WebKit.framework */,
 				4F36751814B055A83B6A3DB7 /* Pods_VerifyApp.framework */,
 			);
@@ -113,6 +121,8 @@
 				C264B52921F58F1600A0BFB4 /* TabViewController.swift */,
 				C269B0A421F6D14A00C95284 /* UiPartsViewController.swift */,
 				C20CC55D21FAF42500D6004B /* UserDefaultsViewController.swift */,
+				C2BC316A2217C4A2006F38A4 /* NoStoryBoardViewController.swift */,
+				C2371B8522213DFB00E222D6 /* AnimationViewController.swift */,
 				C254FB6A220E56E20084E11A /* CustomView.swift */,
 				C254FB6D220E587F0084E11A /* CustomView.xib */,
 				C2E187E321EC543A00527495 /* VerifyModel.swift */,
@@ -257,7 +267,9 @@
 				C26BEB2221EC52B400CAEE53 /* DbViewController.swift in Sources */,
 				C254FB6B220E56E20084E11A /* CustomView.swift in Sources */,
 				C20CC55E21FAF42500D6004B /* UserDefaultsViewController.swift in Sources */,
+				C2BC316B2217C4A2006F38A4 /* NoStoryBoardViewController.swift in Sources */,
 				C26C614F21E88B100097670F /* AppDelegate.swift in Sources */,
+				C2371B8622213DFB00E222D6 /* AnimationViewController.swift in Sources */,
 				C2888EE921F2C46B001321FC /* CalendarViewController.swift in Sources */,
 				C2E187E421EC543A00527495 /* VerifyModel.swift in Sources */,
 			);
